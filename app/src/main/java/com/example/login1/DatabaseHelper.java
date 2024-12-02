@@ -29,16 +29,16 @@
 
                 @Override
                 public void onCreate(SQLiteDatabase db) {
-                    String createTable = "CREATE TABLE " + TABLE_NAME + " (" +
-                            COL_ID + " INTEGER PRIMARY KEY AUTOINCREMENT, " +
-                            COL_NOMBRE + " TEXT, " +
-                            COL_GENERO + " TEXT, " +
-                            COL_FECHA_NACIMIENTO + " TEXT, " +
-                            COL_NIVEL_ESTUDIOS + " TEXT, " +
-                            COL_INTERESES + " TEXT, " +
-                           COL_TELEFONO + " TEXT, " +
-                            COL_USUARIO + " TEXT, " +
-                            COL_CONTRASEÑA + " TEXT)";
+                        String createTable = "CREATE TABLE " + TABLE_NAME + " (" +
+                                COL_ID + " INTEGER PRIMARY KEY AUTOINCREMENT, " +
+                                COL_NOMBRE + " TEXT, " +
+                                COL_GENERO + " TEXT, " +
+                                COL_FECHA_NACIMIENTO + " TEXT, " +
+                                COL_NIVEL_ESTUDIOS + " TEXT, " +
+                                COL_INTERESES + " TEXT, " +
+                               COL_TELEFONO + " TEXT, " +
+                                COL_USUARIO + " TEXT, " +
+                                COL_CONTRASEÑA + " TEXT)";
                     db.execSQL(createTable);
                 }
 
